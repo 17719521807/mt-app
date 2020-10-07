@@ -1,0 +1,6 @@
+@import url('./myType.css');
+@import url("./othContent.css");
+.mt-type {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}

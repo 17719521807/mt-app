@@ -1,0 +1,159 @@
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.login-content {
+    display: flex;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #555;
+}
+
+.login-content .imgs img {
+    width: 480px;
+    height: 370px;
+}
+
+.login-content .login-form {
+    box-sizing: border-box;
+    width: 270px;
+    margin-left: 150px;
+    height: 340px;
+    padding-top: 50px;
+    box-sizing: border-box;
+}
+
+.login-content .login-form .select-type {
+    line-height: 18px;
+}
+
+.login-content .login-form .select-type p {
+    float: left;
+}
+
+.login-content .login-form .select-type .switch {
+    float: right;
+    cursor: pointer;
+}
+
+.login-content .login-form .select-type .switch {
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+}
+
+.login-content .login-form .input {
+    width: 270px;
+    height: 36px;
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    margin: 15px 0;
+}
+
+.login-content .login-form .input input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    margin-left: 10px;
+}
+
+.login-content .login-form .input i {
+    margin-left: 5px;
+}
+
+.login-content .login-form .input input::placeholder {
+    font-size: 14px;
+}
+
+.login-content .login-form .code-input span {
+    font-size: 12px;
+    white-space: nowrap;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.login-content .login-form .forget-password {
+    text-align: right;
+    color: #FE8C00;
+    font-size: 12px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.login-content .login-form .login-btn button {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    height: 35px;
+    font-size: 14px;
+    background-image: linear-gradient(135deg, #FFD000 0, #FFBD00 100%);
+    line-height: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+}
+
+.login-content .login-form .tips {
+    margin-top: 10px;
+    font-size: 12px;
+    color: #aaa;
+}
+
+.login-content .login-form .tips a {
+    color: #fe8c00;
+}
+
+.login-content .login-form .free-regisiter {
+    margin-top: 10px;
+}
+
+.login-content .login-form .free-regisiter a {
+    color: #FE8C00;
+    margin-left: 5px;
+}
+
+.login-content .login-form .oth-login {
+    text-align: center;
+    position: relative;
+    margin-top: 20px;
+}
+
+.login-content .login-form .oth-login::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    width: 25%;
+    top: 50%;
+    border-bottom: 1px solid #ccc;
+    transform: translateY(-50%);
+}
+
+.login-content .login-form .oth-login::after {
+    position: absolute;
+    content: "";
+    right: 0;
+    width: 25%;
+    top: 50%;
+    border-bottom: 1px solid #ccc;
+    transform: translateY(-50%);
+}
+
+.login-content .login-form .oth-internet {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.login-content .login-form .oth-internet .iconfont {
+    width: 25px;
+    height: 25px;
+    font-size: 24px;
+    margin: 0 5px;
+    cursor: pointer;
+}

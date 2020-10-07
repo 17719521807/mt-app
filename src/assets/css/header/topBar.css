@@ -1,0 +1,196 @@
+.m-header-topBar {
+    display: flex;
+    color: #999;
+    height: 40px;
+    justify-content: space-between;
+}
+
+.m-header-topBar .position .iconfont {
+    font-size: 12px;
+}
+
+.m-header-topBar .m-geo .position {
+    color: #666;
+    display: flex;
+    align-items: center;
+    margin-right: 2px;
+}
+
+.m-header-topBar .m-geo {
+    display: flex;
+}
+
+.m-header-topBar .m-geo .changeCity {
+    display: flex;
+    align-items: center;
+}
+
+.m-header-topBar .m-geo .changeCity span:nth-child(1) {
+    color: #666;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.m-header-topBar .m-geo .changeCity span {
+    margin: 0 2px;
+}
+
+.m-header-topBar .m-geo .changeCity span:hover {
+    color: #FE8C00;
+    cursor: pointer;
+}
+
+.m-header-topBar .m-geo .login,
+.m-header-topBar .m-geo .register {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.m-header-topBar .m-geo .login {
+    color: #FE8C00;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.m-header-topBar .m-nav {
+    display: flex;
+}
+
+.m-header-topBar .m-nav .first-nav {
+    height: 100%;
+    display: flex;
+    padding: 0 10px;
+    box-sizing: border-box;
+    align-items: center;
+    position: relative;
+}
+
+.m-header-topBar .m-nav .first-nav:hover {
+    background-color: #fff;
+}
+
+.m-header-topBar .m-nav .first-nav:not(:nth-child(n+3)) p {
+    cursor: pointer;
+}
+
+.m-header-topBar .m-nav .first-nav>p:hover {
+    color: #FE8C00;
+}
+
+.m-header-topBar .m-nav .first-nav:hover .second-nav {
+    display: block;
+}
+
+.m-header-topBar .m-nav .first-nav .second-nav {
+    position: absolute;
+    text-align: center;
+    white-space: nowrap;
+    right: 50%;
+    display: none;
+    z-index: 1;
+    transform: translateX(50%);
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-top: none;
+    top: 100%;
+}
+
+.m-header-topBar .m-nav .first-nav:nth-child(3) .second-nav.col {
+    right: 0;
+    transform: translate(0);
+}
+
+.m-header-topBar .m-nav .first-nav:nth-child(3) .second-nav.col li {
+    padding: 10px 10px;
+}
+
+.m-header-topBar .m-nav .first-nav .second-nav.col li {
+    text-align: center;
+    padding: 10px 0;
+    cursor: pointer;
+}
+
+.m-header-topBar .m-nav .first-nav .second-nav.col li:hover {
+    color: #FE8C00;
+}
+
+.m-header-topBar .m-nav .first-nav:nth-child(1) .second-nav.col,
+.m-header-topBar .m-nav .first-nav:nth-child(4) .second-nav.col {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.m-header-topBar .m-nav .first-nav .second-nav.row {
+    right: 0;
+    transform: translateX(0);
+    overflow: hidden;
+    width: 1200px;
+    box-sizing: border-box;
+    padding: 0 20px;
+}
+
+.m-header-topBar .m-nav .first-nav .second-nav.row {
+    display: none;
+    justify-content: space-around;
+}
+
+.m-header-topBar .m-nav .first-nav:nth-child(5):hover .second-nav.row {
+    display: flex;
+}
+
+.m-header-topBar .m-nav .first-nav .second-nav.row>li {
+    width: 15%;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.m-header-topBar .m-nav .first-nav .second-nav.row>li>p {
+    padding: 30px 0;
+}
+
+.m-header-topBar .m-nav .first-nav .second-nav.row>li>ul {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.m-header-topBar .m-nav .first-nav .second-nav.row>li>ul li {
+    padding: 10px 0;
+    cursor: pointer;
+}
+
+.m-header-topBar .m-nav .first-nav .second-nav.row>li p {
+    font-size: 16px;
+    color: black;
+}
+
+.m-header-topBar .m-nav .first-nav .second-nav.row>li>ul li:hover {
+    color: #FE8C00;
+}
+
+.m-header-topBar .m-nav .first-nav .second-nav.row>li:nth-child(1)>ul li {
+    width: 33%;
+}
+
+.m-header-topBar .m-nav .first-nav .second-nav.row>li:nth-child(2)>ul li {
+    width: 40%;
+}
+
+.m-header-topBar .m-nav .first-nav .second-nav.row>li:nth-child(3)>ul {
+    display: block;
+}
+
+.m-header-topBar .m-nav .first-nav .second-nav.row>li:nth-child(4) {
+    flex-grow: 2;
+}
+
+.m-header-topBar .m-nav .first-nav .second-nav.row>li:nth-child(4)>ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.m-header-topBar .m-nav .first-nav .second-nav.row>li:nth-child(4)>ul img {
+    width: 60px;
+    height: 60px;
+}

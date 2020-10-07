@@ -1,0 +1,76 @@
+.my-type {
+    width: 230px;
+    padding: 15px 0;
+    border: 1px solid #ccc;
+    position: relative;
+    height: 455px;
+    top: -45px;
+    background-color: #fff;
+}
+
+.my-type>p {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 0 10px 30px;
+}
+
+.my-type .firstMenu {
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 10px;
+}
+
+.my-type .firstMenu:hover {
+    font-weight: bold;
+    background-color: rgba(255, 150, 0, 0.08);
+}
+
+.my-type .firstMenu .iconfont {
+    font-size: 10px;
+    color: #ccc;
+}
+
+.my-type .secondMenu {
+    position: absolute;
+    left: 100%;
+    font-weight: normal;
+    z-index: 1;
+    padding: 10px 10px;
+    background-color: #fff;
+    width: 400px;
+    height: 416px;
+    top: 60px;
+}
+
+.my-type .secondMenu dt {
+    font-size: 18px;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.my-type .secondMenu dt a:nth-child(2) {
+    font-size: 14px;
+    color: #ccc;
+}
+
+.my-type .secondMenu .dd {
+    display: flex;
+    padding: 10px 10px;
+    flex-wrap: wrap;
+    font-size: 12px;
+}
+
+.my-type .secondMenu .dd dd {
+    padding: 10px 10px;
+}
+
+.my-type .secondMenu .dd dd a {
+    color: #aaa;
+}
+
+.my-type .secondMenu .dd dd a:hover {
+    color: #FE8C00;
+}

@@ -1,0 +1,10 @@
+.regisiter-footer {
+    border-top: 1px solid #ddd;
+    text-align: center;
+    padding-top: 20px;
+    color: #ccc;
+}
+
+.regisiter-footer span {
+    cursor: pointer;
+}

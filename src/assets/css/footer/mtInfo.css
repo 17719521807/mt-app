@@ -1,0 +1,33 @@
+.mt-info {
+    border-top: 1px solid #ddd;
+    display: flex;
+    font-size: 12px;
+    padding: 30px 40px;
+}
+
+.mt-info>li {
+    flex-grow: 1;
+}
+
+.mt-info>li p {
+    font-size: 14px;
+    padding: 10px 0;
+}
+
+.mt-info>li ul>li {
+    padding: 5px 0;
+    width: 210px;
+}
+
+.mt-info>li ul>li a:hover {
+    color: #fe8c00;
+}
+
+.mt-info>li>div {
+    margin-top: 20px;
+}
+
+.mt-info .shop-self-entry,
+.mt-info .register-entry {
+    font-size: 16px;
+}

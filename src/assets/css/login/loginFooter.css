@@ -1,0 +1,21 @@
+.login-footer {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #aaa;
+    margin-top: 50px;
+}
+
+.login-footer .login-footer-nav {
+    display: flex;
+    padding: 15px 10px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.login-footer .login-footer-nav li {
+    padding: 0 10px;
+    border-right: 1px solid #ddd;
+    cursor: pointer;
+}

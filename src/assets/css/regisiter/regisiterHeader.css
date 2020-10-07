@@ -1,0 +1,32 @@
+.regisiter-header {
+    border: 1px solid #ccc;
+    padding: 20px 0;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.regisiter-header .logo img {
+    width: 128px;
+    height: 45px;
+}
+
+.regisiter-header .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.regisiter-header .has-login {
+    display: flex;
+    align-items: center;
+}
+
+.regisiter-header .has-login button {
+    padding: 5px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(135deg, #FFD000 0, #FFBD00 100%);
+    margin-left: 10px;
+    border-radius: 5px;
+    border: none;
+}

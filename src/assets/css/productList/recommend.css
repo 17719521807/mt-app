@@ -1,0 +1,35 @@
+.recommend-list {
+    background-color: #fff;
+    margin: 50px 0 0 10px;
+    width: 230px;
+    padding: 20px 10px;
+}
+
+.recommend-list p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.recommend-list ul li {
+    margin: 20px 0;
+    font-size: 14px;
+}
+
+.recommend-list ul li img {
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.recommend-list ul li div {
+    margin: 10px 0;
+}
+
+.recommend-list ul li .score {
+    color: #FFD000;
+}
+
+.recommend-list ul li .address {
+    font-size: 12px;
+    color: #CCC;
+}

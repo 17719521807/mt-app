@@ -1,0 +1,187 @@
+.main-product-list>h1 {
+    padding: 10px 0;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.main-product-list>h1 a {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.main-product-list>h1 a:hover {
+    color: #FE8C00;
+}
+
+.main-product-list .all-product {
+    display: flex;
+}
+
+.main-product-list .all-product .product .header {
+    background-color: #fff;
+    width: 948px;
+    font-size: 14px;
+}
+
+.main-product-list .all-product .product .header .type,
+.main-product-list .all-product .product .header .area {
+    padding: 15px 10px;
+}
+
+.main-product-list .all-product .product .header dl {
+    display: flex;
+    align-items: cneter;
+}
+
+.main-product-list .all-product .product .header dl>dt {
+    padding: 3px 10px;
+    margin-right: 50px;
+}
+
+.main-product-list .all-product .product .header dl>dd {
+    padding: 3px 10px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0 10px;
+    position: relative;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.main-product-list .all-product .product .header dl>dd .iconfont {
+    font-size: 12px;
+}
+
+.main-product-list .all-product .product .header dl>dd.active {
+    background-image: linear-gradient(to bottom right, #FFD000, #FFBD00);
+}
+
+.main-product-list .all-product .product .header .sub-list {
+    position: absolute;
+    left: 0;
+    background-color: #fff;
+    z-index: 2;
+    top: 140%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px 10px;
+}
+
+.main-product-list .all-product .product .header .sub-list p {
+    text-align: left;
+    font-size: 16px;
+    color: #ccc;
+}
+
+.main-product-list .all-product .product .header .sub-list .child-list {
+    display: flex;
+}
+
+.main-product-list .all-product .product .header .sub-list .child-list li {
+    white-space: nowrap;
+    margin: 10px 10px;
+    font-size: 12px;
+}
+
+.main-product-list .all-product .product .header .sub-list .tranigle {
+    position: absolute;
+    border: 4px solid transparent;
+    border-bottom: 10px solid #fff;
+    left: 20px;
+    top: -13px;
+}
+
+.main-product-list .all-product .product .header .sub-list .color-tranigle {
+    position: absolute;
+    border: 4px solid transparent;
+    border-bottom: 10px solid #ccc;
+    left: 20px;
+    top: -15px;
+}
+
+.main-product-list .all-product .product .header .already-choose {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.main-product-list .all-product .product .header .already-choose dl dt {
+    margin-right: 20px;
+}
+
+.main-product-list .all-product .product .header .already-choose dl dd {
+    font-size: 12px;
+    padding: 0 4px 0 5px;
+    border: 1px solid #FFC700;
+    border-radius: 10px;
+    color: #222222;
+    background: rgba(255, 150, 0, .04);
+    display: flex;
+    align-items: center;
+}
+
+.main-product-list .all-product .product .header .already-choose dl dd span {
+    color: #FFC700;
+    display: inline-block;
+    margin: 0 3px 0 5px;
+}
+
+.main-product-list .all-product .product .header .already-choose .delete-all {
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.main-product-list .all-product .product .product-content {
+    margin-top: 15px;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.main-product-list .all-product .product .product-content .sort-nav {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding: 10px 0;
+    font-size: 16px;
+}
+
+.main-product-list .all-product .product .product-content .sort-nav li {
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.main-product-list .all-product .product .product-content .sort-nav li .iconfont {
+    font-size: 5px;
+    color: #ddd;
+}
+
+.main-product-list .all-product .product .product-content .production li {
+    display: flex;
+    padding: 20px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.main-product-list .all-product .product .product-content .production li img {
+    width: 220px;
+    cursor: pointer;
+    border-radius: 10px;
+    height: 125px;
+}
+
+.main-product-list .all-product .product .product-content .production li .pro-content {
+    margin-left: 10px;
+}
+
+.main-product-list .all-product .product .product-content .production li .pro-content div {
+    margin: 10px 0;
+}
+
+.main-product-list .all-product .product .product-content .production li .pro-content .title {
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.main-product-list .all-product .product .product-content .production li .pro-content .score {
+    color: #FF9900;
+}

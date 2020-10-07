@@ -1,0 +1,264 @@
+.oth-content {
+    display: flex;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+.oth-content .slide-show-area .top {
+    display: flex;
+    margin: 0 0 25px;
+}
+
+.oth-content .slide-show-area .top .slide-show {
+    position: relative;
+    width: 550px;
+    height: 240px;
+    margin-right: 10px;
+}
+
+.oth-content .slide-show-area .top .slide-show .imgs {
+    position: relative;
+    width: 550px;
+    height: 240px;
+}
+
+.oth-content .slide-show-area .top .slide-show .imgs li {
+    position: absolute;
+}
+
+.oth-content .slide-show-area .top .slide-show .imgs img {
+    width: 550px;
+    height: 240px;
+}
+
+.oth-content .slide-show-area .top .casual-living img {
+    width: 150px;
+    height: 240px;
+}
+
+.oth-content .slide-show-area .top .slide-show .arrow {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    left: 0;
+    padding: 0 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    justify-content: space-between;
+}
+
+.oth-content .slide-show-area .top .slide-show .arrow>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    cursor: pointer;
+    height: 40px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.oth-content .slide-show-area .top .slide-show .arrow .iconfont {
+    font-size: 25px;
+    color: #ddd;
+    font-weight: bold;
+}
+
+.slideShowActive-enter,
+.slideShowActive-leave-to {
+    opacity: 0;
+}
+
+.slideShowActive-enter-active,
+.slideShowActive-leave-active {
+    transition: opacity .6s;
+}
+
+.slideShowActive-enter-to,
+.slideShowActive-leave {
+    opacity: 1;
+}
+
+.oth-content .slide-show-area .top .slide-show .spots {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 20px;
+    display: flex;
+}
+
+.oth-content .slide-show-area .top .slide-show .spots span {
+    width: 15px;
+    height: 2px;
+    margin: 0 5px;
+    background-color: #aaa;
+}
+
+.slideShowImg-enter,
+.slideShowImg-leave-to {
+    opacity: 0;
+}
+
+.slideShowImg-enter-active,
+.slideShowImg-leave-active {
+    transition: opacity .6s;
+}
+
+.slideShowImg-enter-to,
+.slideShowImg-leave {
+    opacity: 1;
+}
+
+.oth-content .slide-show-area .bottom {
+    display: flex;
+}
+
+.oth-content .slide-show-area .bottom img {
+    width: 270px;
+    height: 165px;
+}
+
+.oth-content .slide-show-area .bottom li {
+    margin-right: 10px;
+}
+
+.oth-content .slide-show-area .bottom li:nth-of-type(3) img {
+    width: 150px;
+    margin-right: 0;
+}
+
+.oth-content .user-info .top {
+    font-size: 16px;
+    text-align: center;
+    width: 230px;
+    background-color: #fff;
+    padding: 30px;
+    box-sizing: border-box;
+    height: 240px;
+    margin-bottom: 25px;
+}
+
+.oth-content .user-info .top .img img {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    border: 5px solid #ddd;
+}
+
+.oth-content .user-info .top .login-register {
+    margin-top: 20px;
+}
+
+.oth-content .user-info .top .login-register .register {
+    margin-bottom: 10px;
+}
+
+.oth-content .user-info .top .login-register a {
+    position: relative;
+    display: inline-block;
+    width: 120px;
+    padding: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 30px;
+}
+
+.oth-content .user-info .top .login-register a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    opacity: 0;
+    transition: opacity .6s;
+    background-color: #ddd;
+}
+
+.oth-content .user-info .top .login-register a:hover::after {
+    opacity: .3;
+}
+
+.oth-content .user-info .bottom {
+    width: 230px;
+    height: 167px;
+    background-color: #fff;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.oth-content .user-info .bottom p:nth-of-type(1) {
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.oth-content .user-info .bottom p:nth-of-type(2) {
+    font-size: 12px;
+}
+
+.oth-content .user-info .bottom p:nth-of-type(2) span {
+    color: #EC5330;
+}
+
+.oth-content .user-info .bottom img {
+    width: 95px;
+    height: 95px;
+}
+
+.oth-content .user-info .login-true {
+    width: 230px;
+    height: 240px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    background-color: #fff;
+    margin-bottom: 25px;
+}
+
+.oth-content .user-info .login-true .setting {
+    text-align: right;
+    color: #aaa;
+}
+
+.oth-content .user-info .login-true .setting i.iconfont {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.oth-content .user-info .login-true .user-head-img {
+    background-image: url("../../../imgs//logo/logo.png");
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.oth-content .user-info .login-true .user-name {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.oth-content .user-info .login-true .oth-user-info {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.oth-content .user-info .login-true .oth-user-info li {
+    width: 60px;
+    height: 52px;
+    display: flex;
+    cursor: pointer;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.oth-content .user-info .login-true .oth-user-info li i {
+    margin-bottom: 10px;
+    color: #FFC300;
+}

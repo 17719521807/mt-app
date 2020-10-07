@@ -1,0 +1,185 @@
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.city-list {
+    background-color: #fff;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 0 20px;
+}
+
+.city-list .select {
+    display: flex;
+    border-bottom: 1px solid #ddd;
+    padding: 30px 0;
+    box-sizing: border-box;
+}
+
+.city-list .select .province-select {
+    display: flex;
+    align-items: center;
+}
+
+.city-list .select .province-select .province,
+.city-list .select .province-select .city {
+    position: relative;
+    width: 150px;
+    height: 40px;
+    border: 1px solid #ddd;
+    display: flex;
+    border-radius: 5px;
+    justify-content: space-between;
+    padding: 0 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin-right: 20px;
+    align-items: center;
+}
+
+.city-list .select .province-select .child {
+    position: absolute;
+    left: 0;
+    top: 120%;
+    border: 1px solid #ccc;
+    z-index: 1;
+    background-color: #fff;
+    cursor: auto;
+}
+
+.city-list .select .province-select .child p {
+    font-size: 14px;
+    color: #ccc;
+    padding: 20px;
+}
+
+.city-list .select .province-select .child ul {
+    width: 300px;
+}
+
+.city-list .select .province-select .child ul li {
+    width: 40px;
+    height: 20px;
+    float: left;
+    font-size: 12px;
+    white-space: nowrap;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 10px 20px;
+}
+
+.city-list .select .province-select .province .child ul li:hover {
+    background-color: #ccc;
+}
+
+.city-list .select .dir-select {
+    margin-left: 30px;
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+.city-list .select .dir-select input {
+    width: 220px;
+    height: 40px;
+    padding-left: 10px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+.city-list .select .dir-select input::placeholder {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.city-list .select .dir-select ul {
+    position: absolute;
+    left: 26%;
+    top: 115%;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    width: 228px;
+    height: 375px;
+    font-size: 12px;
+    color: #555;
+    overflow-y: auto;
+}
+
+.city-list .select .dir-select ul li {
+    padding: 10px 10px;
+    cursor: pointer;
+}
+
+.city-list .select .dir-select ul li:hover {
+    color: black;
+}
+
+.city-list .hot-city,
+.city-list .recent-search {
+    display: flex;
+    padding: 30px 0;
+    box-sizing: border-box;
+    border-bottom: 1px solid #ddd;
+}
+
+.city-list .hot-city dd,
+.city-list .recent-search dd {
+    margin: 0 10px;
+    color: #777;
+    cursor: pointer;
+}
+
+.city-list .hot-city dd :hover,
+.city-list .recent-search dd :hover {
+    color: black;
+}
+
+.city-list .initail .initail-select {
+    padding: 30px 0;
+}
+
+.city-list .initail .initail-select a {
+    display: inline-block;
+    margin: 0 13px;
+}
+
+.city-list .initail dl {
+    display: flex;
+    padding: 10px 0;
+    align-items: center;
+    transition: background-color .6s;
+}
+
+.city-list .initail dl dt {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    line-height: 40px;
+    text-align: center;
+    background-color: #FFD000;
+}
+
+.city-list .initail dl dd {
+    margin: 0 20px;
+    color: #666;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.city-list .initail dl:hover {
+    background-color: #F8F8F8;
+}
+
+.city-list .initail dl dd.active {
+    color: #FF6600;
+}
+
+.city-list .initail dl dd:hover {
+    color: black;
+}

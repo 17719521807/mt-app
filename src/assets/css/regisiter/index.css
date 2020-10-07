@@ -1,0 +1,7 @@
+@import "./regisiterHeader.css";
+@import "./regisiterContent.css";
+@import "./regisiterFooter.css";
+.regisiter {
+    height: 100vh;
+    background-color: #fff;
+}

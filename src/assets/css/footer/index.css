@@ -1,0 +1,6 @@
+@import url('./mtInfo.css');
+@import url('./othInfo.css');
+.m-footer {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+}

@@ -1,0 +1,11 @@
+/* 字体图标 */
+
+@import '//at.alicdn.com/t/font_2049069_v509gc7lkye.css';
+body {
+    background-color: #F8F8F8;
+}
+
+.content {
+    width: 1190px;
+    margin: 0 auto;
+}

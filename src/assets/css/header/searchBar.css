@@ -1,0 +1,81 @@
+.m-header-searchBar {
+    height: 157px;
+    background-color: #fff;
+    padding-top: 25px;
+    box-sizing: border-box;
+}
+
+.m-header-searchBar .logo-input {
+    display: flex;
+    align-items: center;
+}
+
+.m-header-searchBar .logo-input .mt-logo img {
+    width: 126px;
+    height: 46px;
+}
+
+.m-header-searchBar .logo-input .mt-input {
+    display: flex;
+    position: relative;
+    align-items: center;
+    margin-left: 200px;
+}
+
+.m-header-searchBar .logo-input .mt-input input {
+    width: 470px;
+    padding: 10px 10px;
+    font-size: 14px;
+    border-radius: 4px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border: 1px solid #ccc;
+}
+
+.m-header-searchBar .logo-input .mt-input .mirror {
+    border-radius: 2px;
+    width: 80px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 40px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    cursor: pointer;
+    background-color: #FFC300;
+}
+
+.m-header-searchBar .logo-input .mt-input .input-show-data {
+    position: absolute;
+    width: 492px;
+    top: 100%;
+    font-size: 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+    z-index: 1;
+    border-radius: 5px;
+}
+
+.m-header-searchBar .logo-input .mt-input .input-show-data li {
+    padding: 5px 10px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.m-header-searchBar .logo-input .mt-input .input-show-data li:hover {
+    background-color: #eee;
+    color: #FE8C00;
+}
+
+.m-header-searchBar .nav {
+    display: flex;
+    align-items: flex-end;
+    width: 50%;
+    font-size: 16px;
+    margin: 0 auto;
+    color: black;
+    font-weight: bold;
+    justify-content: space-between;
+    margin-top: 50px;
+}
